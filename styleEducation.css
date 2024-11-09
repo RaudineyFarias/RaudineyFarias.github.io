@@ -63,7 +63,7 @@ nav {
 }
 
 /*LInha Superior alinhada com o menu*/
-.line-div {
+/* .line-div {
   width: 50%;
   position: absolute;
   top: 90px;
@@ -72,11 +72,11 @@ nav {
   height: 2px;
   transform: rotate(-0.1deg);
   transform-origin: 0 0;
-  }
+  } */
 
 
 /*Linha Inferior*/
-.line-div2 {
+/* .line-div2 {
   width: 50%;
   position: absolute;
   top: 900px;
@@ -86,8 +86,14 @@ nav {
   height: 2px;
   transform: rotate(-0.1deg);
   transform-origin: 0 0;
-  }  
-
+  }   */
+@media (max-width: 768px) {
+    /* Estilos para tablets e celulares */
+  }
+@media (max-width: 480px) {
+    /* Estilos específicos para celulares menores */
+  }
+  
 /* Remove bullets da lista */
 .menu {
   list-style-type: none;
