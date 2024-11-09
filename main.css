@@ -4,6 +4,12 @@
   background-color: #242020;
   font-size: 65,2%;
 }
+@media (max-width: 768px) {
+  /* Estilos para tablets e celulares */
+}
+@media (max-width: 480px) {
+  /* Estilos específicos para celulares menores */
+}
 
 
 .nome {
@@ -63,7 +69,7 @@ nav {
 }
 
 /*LInha Superior alinhada com o menu*/
-.line-div {
+/* .line-div {
   width: 50%;
   position: absolute;
   top: 90px;
@@ -72,11 +78,11 @@ nav {
   height: 2px;
   transform: rotate(-0.1deg);
   transform-origin: 0 0;
-  }
+  } */
 
 
 /*Linha Inferior*/
-.line-div2 {
+/* .line-div2 {
   width: 50%;
   position: absolute;
   top: 850px;
@@ -86,7 +92,7 @@ nav {
   height: 2px;
   transform: rotate(-0.1deg);
   transform-origin: 0 0;
-  }  
+  }   */
 
 /* Remove bullets da lista */
 .menu {
@@ -217,7 +223,7 @@ nav {
   position: absolute;
   left: 750px;
   top: 330px;
-  font-size: 19px;
+  font-size: 17px;
   font-family: 'Zen Antique';
   color: white;
   text-align: left;
@@ -230,7 +236,7 @@ nav {
     position: absolute;
     top: 330px;
     left: 1250px;
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'Zen Antique';
     color: white;
     text-align: left;
