@@ -1,8 +1,14 @@
-:root{
+  :root{
     margin: 0;
     padding: 0;
     background-color: #242020;
     font-size: 65,2%;
+  }
+  @media (max-width: 768px) {
+    /* Estilos para tablets e celulares */
+  }
+  @media (max-width: 480px) {
+    /* Estilos específicos para celulares menores */
   }
   
   .container {
@@ -63,11 +69,11 @@
     left: 70px;
   }
   
-  /*LInha Superior alinhada com o menu*/
+  /* LInha Superior alinhada com o menu
   .line-div {
     width: 50%;
-    position: absolute;
-    top: 90px;
+    position: relative;
+    top: auto;
     border: 2px solid #fff;
     box-sizing: border-box;
     height: 2px;
@@ -77,18 +83,18 @@
   
   
   /*Linha Inferior*/
-  .line-div2 {
+  /* .line-div2 {
     width: 50%;
-    position: absolute;
-    top: 900px;
+    position: relative;
+    top: auto;
     left: 960px;
     border: 2px solid #fff;
     box-sizing: border-box;
     height: 2px;
     transform: rotate(-0.1deg);
     transform-origin: 0 0;
-    }  
-  
+    }   */
+   */
   /* Remove bullets da lista */
   .menu {
     list-style-type: none;
