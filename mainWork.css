@@ -1,0 +1,374 @@
+:root{
+    margin: 0;
+    padding: 0;
+    background-color: #242020;
+    font-size: 65,2%;
+  }
+  @media (max-width: 768px) {
+    /* Estilos para tablets e celulares */
+  }
+  @media (max-width: 480px) {
+    /* Estilos específicos para celulares menores */
+  }
+  
+  
+  .nome {
+    width: 768px;
+    height: 93px;
+  
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se quebrem em uma nova linha */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+  }
+  
+  .item {
+    flex: 1 1 200px; /* Item flexível com um tamanho mínimo de 200px */
+    margin: 10px;
+  }
+  
+  .nome .text-wrapper {
+    position: fixed;
+    width: 768px;
+    top: 480px;
+    left: 570px;
+    font-family: 'Zen Dots';
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .portifolio {
+    width: 450px;
+    height: 46px;
+  }
+  
+  .portifolio .text-wrapper {
+    position: fixed;
+    width: 450px;
+    top: 450px;
+    left: 570px;
+    font-family: "Zen Dots";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  
+  nav {
+    padding: 10px 0; /* Espaçamento ao redor do menu */
+    text-align: right; /* Centraliza o menu horizontalmente */
+    color: white;
+    position: relative;
+    top: 40px;
+    font-family: 'Zen Antique';
+  }
+  
+  /*LInha Superior alinhada com o menu*/
+  /* .line-div {
+    width: 50%;
+    position: absolute;
+    top: 90px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    height: 2px;
+    transform: rotate(-0.1deg);
+    transform-origin: 0 0;
+    } */
+  
+  
+  /*Linha Inferior*/
+  /* .line-div2 {
+    width: 50%;
+    position: absolute;
+    top: 850px;
+    left: 960px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    height: 2px;
+    transform: rotate(-0.1deg);
+    transform-origin: 0 0;
+    }   */
+  
+  /* Remove bullets da lista */
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column; /* Altera para uma coluna */
+        align-items: center; /* Alinha itens no centro */
+    }
+    .menu li {
+      padding: 10px 0;
+    }
+    
+  }
+  
+  /* Exibe os itens lado a lado */
+  .menu li {
+    display: inline-block;
+    margin-right: 10px; /* Espaçamento entre os itens */
+  }
+  
+  /* Último item sem margem direita */
+  .menu li:last-child {
+    margin-right: 10px;
+  }
+  
+  /* Estilização dos links */
+  .menu a {
+    display: inline-block;
+    padding: 14px 20px;
+    font-size: 18.5px;
+    text-decoration: none;
+    color: white;
+    font-family:'Zen Antique';
+  }
+  
+  /* Alterar a cor ao passar o mouse */
+  .menu a:hover {
+    background-color: #575757;
+  }
+  #inicio{
+    width: 190px;
+    height: 90px;
+    text-align: center;
+  }
+  #myWork{
+    width: 190px;
+    height: 90px;
+    text-align: center;
+  
+  }
+  #experience{
+    width: 190px;
+    height: 80px;
+    text-align: center;
+  
+  }
+  #education{
+    width: 160px;
+    height: 80px;
+    text-align: center;
+  }
+  
+  #about{
+    width: 160px;
+    height: 80px;
+    text-align: center;
+  
+  }
+  
+  #cover{
+    width: 160px;
+    height: 80px;
+    text-align: center;
+  
+  }
+  
+  #home{
+    position: absolute;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+  }
+    
+  #raudineyRack{
+    position: absolute;
+    top: 220px;
+    left: 220px;
+    height: 600px;
+    width: 420px;
+  }
+  
+  
+  /* MEus TRabalhos */
+  #tituloWork{
+    color: white;
+    font-family: 'Zen Antique';
+    font-size: 46px;
+    position: absolute;
+    top: 180px;
+    left: 700px;
+  }
+  
+  #tituloWork2{
+  
+    color: white;
+    font-family: 'Zen Antique';
+    font-size: 18.5px;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+  }
+
+  #Lista_espera{
+    color: white;
+    font-family: 'Zen Antique';
+    font-size: 18.5px;
+    position: absolute;
+    top: 230px;
+    left: 120px;
+  }
+  #Lista_espera_texto{
+    color: white;
+    font-family: 'Zen Antique';
+    font-size: 15.5px;
+    position: absolute;
+    top: 270px;
+    left: 120px;
+  }
+
+  #Tabela_Lde{
+    position: absolute;
+    top: 520px;
+    left: 120px;
+    height: 380px;
+    /* width: 320px; */
+
+  }
+  #Grafico_Lde{
+    position: absolute;
+    top: 520px;
+    left: 890px;
+    height: 380px;
+  }
+
+  #tela_login{
+    position: absolute;
+    top: 510px;
+    left: 1500px;
+    /* height: 380px;
+    width: 100px; */
+  }
+
+  #raud_menu{
+    position: absolute;
+    top: 1050px;
+    left: 120px;
+    height: 300px;
+    width: 600px;
+  }
+
+  #raud_site{
+    position: absolute;
+    top: 1050px;
+    left: 890px;
+    height: 300px;
+    width: 600px;
+  }
+
+  #site{
+    position: absolute;
+    top: 920px;
+    left: 120px;
+    color: white;
+    font-family: 'Zen Antique';
+    font-size: 18.5px;
+  }
+
+  #site_texto{
+    position: absolute;
+    top: 960px;
+    left: 120px;
+    color: white;
+    font-family: 'Zen Antique';
+    font-size: 15.5px;
+  }
+
+  #titRack{
+    position: absolute;
+    top: 1400px;
+    left: 120px;
+    color: white;
+    font-family: 'Zen Antique';
+    font-size: 18.5px;
+  }
+
+  #rack_texto{
+    position: absolute;
+    top: 1450px;
+    left: 120px;
+    color: white;
+    font-family: 'Zen Antique';
+    font-size: 16.5px;
+  
+  }
+
+  #imagemCabosRack{
+    position: absolute;
+    top: 1600px;
+    left: 120px;
+    height: 380px;
+    width: 320px;
+  }
+  
+  #imagemMontagem{
+    position: absolute;
+    top: 1600px;
+    left: 540px;
+    height: 390px;
+    width: 320px;
+  }
+
+  #racktraseira{
+    position: absolute;
+    top: 1600px;
+    left: 990px;
+    height: 380px;
+    width: 320px;
+  }
+  
+  #frenteRack{
+    position: absolute;
+    top: 1600px;
+    left: 1450px;
+    height: 380px;
+    width: 320px;
+  }
+  
+  #github{
+    position: relative;
+    top: 1900px;
+    right: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+  
+  }
+
+  #facebook{
+    position: relative;
+    top: 1900px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+  } 
+  
+  #instagram{
+    position: relative;
+    top: 1900px;
+    left: 50px;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+  }
+  
+  #linkedin{
+    position: relative;
+    bottom: 0;
+    top: 1900px;
+    left: 65px;
+    right: 0;
+    width: 45px;
+    height: 45px;
+}
