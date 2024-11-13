@@ -221,7 +221,7 @@ nav {
   width: 550px;
   height: 410px;
   position: absolute;
-  left: 750px;
+  left: 700px;
   top: 330px;
   font-size: 17px;
   font-family: 'Zen Antique';
@@ -230,41 +230,21 @@ nav {
   display: inline-block;
 
   }
-#aboutMe {
-    width: 428px;
-    height: 410px;
-    position: absolute;
-    top: 330px;
-    left: 1250px;
-    font-size: 17px;
-    font-family: 'Zen Antique';
-    color: white;
-    text-align: left;
-    display: inline-block;
-  
-  } 
+
 #imagemRaudiney{
   position: absolute;
   top: 290px;
-  left: 320px;
+  left: 280px;
   height: 420px;
   width: 280px;
 }   
 
-#tituloAbout{
-  position: absolute;
-  top: 280px;
-  left: 1250px;
-  color: white;
-  font-size: 40px;
-  font-family: 'Zen Antique';
 
-}
 
 #tituloSobre{
   position: absolute;
   top: 280px;
-  left: 750px;
+  left: 700px;
   color: white;
   font-size: 40px;
   font-family: 'Zen Antique';
