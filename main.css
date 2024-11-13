@@ -387,7 +387,8 @@ nav {
   font-size: 26.5px;
   position: absolute;
   top: 420px;
-  left: 1050px;
+  left: 900px;
+  width: 500px;
 }
 
 #experiencia{
@@ -396,7 +397,7 @@ nav {
   font-size: 18.5px;
   position: absolute;
   top: 465px;
-  left: 1050px;
+  left: 900px;
   width: 500px;
 }
 #raudineyRack{
