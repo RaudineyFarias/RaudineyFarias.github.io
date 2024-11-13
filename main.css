@@ -221,7 +221,7 @@ nav {
   width: 550px;
   height: 410px;
   position: absolute;
-  left: 680px;
+  left: 600px;
   top: 330px;
   font-size: 17px;
   font-family: 'Zen Antique';
@@ -244,7 +244,7 @@ nav {
 #tituloSobre{
   position: absolute;
   top: 280px;
-  left: 680px;
+  left: 600px;
   color: white;
   font-size: 36px;
   font-family: 'Zen Antique';
