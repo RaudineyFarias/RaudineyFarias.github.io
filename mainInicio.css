@@ -59,84 +59,85 @@
   }
   
   
-  nav {
+  /* nav {
     padding: 10px 0; /* Espaçamento ao redor do menu */
-    text-align: right; /* Centraliza o menu horizontalmente */
-    color: white;
+    /* text-align: right; Centraliza o menu horizontalmente */
+    /* color: white;
     position: relative;
     top: 10px;
     font-family: 'Zen Antique';
     left: 70px;
-  }
-  
-  /* LInha Superior alinhada com o menu
-  .line-div {
-    width: 50%;
-    position: relative;
-    top: auto;
-    border: 2px solid #fff;
-    box-sizing: border-box;
-    height: 2px;
-    transform: rotate(-0.1deg);
-    transform-origin: 0 0;
-    }
-  
-  
-  /*Linha Inferior*/
-  /* .line-div2 {
-    width: 50%;
-    position: relative;
-    top: auto;
-    left: 960px;
-    border: 2px solid #fff;
-    box-sizing: border-box;
-    height: 2px;
-    transform: rotate(-0.1deg);
-    transform-origin: 0 0;
-    }   */
-   */
-  /* Remove bullets da lista */
-  .menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .menu ul {
-        flex-direction: column; /* Altera para uma coluna */
-        align-items: center; /* Alinha itens no centro */
-    }
-    .menu li {
-      padding: 10px 0;
-    }
-    
-  }
-  /* Exibe os itens lado a lado */
-  .menu li {
-    display: inline-block;
-    margin-right: 10px; /* Espaçamento entre os itens */
-  }
-  
-  /* Último item sem margem direita */
-  .menu li:last-child {
-    margin-right: 0px;
-  }
-  
-  /* Estilização dos links */
-  .menu a {
-    display: inline-block;
-    padding: 14px 20px;
-    font-size: 18.5px;
-    text-decoration: none;
+  } */ */
+
+  #menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:transparent;
+    list-style:none;
+      text-decoration: none;
+  }    
+  .menu ul li{
+      /*Visual do link*/
+      padding: 0;
+      margin:0px;
+      list-style:none;
+      background-color: transparent;
+      color: white;
+      float:left;
+      width: 150px;
+      display: inline-block;
+      text-align: center;
+      line-height: 40px;
+      position: relative;
+      top: 50px;
+      left: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+  }   
+  /*Quando o mouse estiver sobre o menu*/
+  .menu ul li:hover{
+    background-color: black;
     color: white;
-    font-family:'Zen Antique';
+    border-bottom:3px solid white;
+      font-weight: bold;
   }
+  #menu2{
+      left: -40px;
+      position: relative;
+      top: auto;
+  }
+  #menu3{
+      left: 110px;
+      position: relative;
+      top: auto;
+  }
+  #menu4{
+      left: 90px;
+      position: relative;
+      top: auto;
+      left: auto;
+  }
+  .menu ul ul{
+      display: none;
+      position: absolute;
+  }
+  .menu ul li:hover > ul{
+      display: block;
+  }
+  #menu ul li { display: inline-block; }
   
-  /* Alterar a cor ao passar o mouse */
-  .menu a:hover {
-    background-color: #575757;
+  .menu ul ul ul{
+      top: 0px;
+      position: absolute;
+      left: 1px;
   }
+  .menu ul ul li{
+      background-color: black;
+  
+  }
+
+
   #inicio{
     width: 190px;
     height: 90px;
@@ -367,8 +368,6 @@
   
   }  
   
-  
-  
   /* experience */
   
   #tituloExperience{
@@ -405,3 +404,76 @@
     height: 600px;
     width: 420px;
   }
+
+
+
+/*  configuração do menu estático a direita
+
+  /* LInha Superior alinhada com o menu
+  .line-div {
+    width: 50%;
+    position: relative;
+    top: auto;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    height: 2px;
+    transform: rotate(-0.1deg);
+    transform-origin: 0 0;
+    }
+  
+  
+  /*Linha Inferior*/
+  /* .line-div2 {
+    width: 50%;
+    position: relative;
+    top: auto;
+    left: 960px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    height: 2px;
+    transform: rotate(-0.1deg);
+    transform-origin: 0 0;
+    }   */
+  
+  /* Remove bullets da lista */
+  /* .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+  } */
+  
+  /* @media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column; /* Altera para uma coluna */
+        /*align-items: center;  Alinha itens no centro */
+    /* }
+    .menu li {
+      padding: 10px 0;
+    } */ 
+    
+  /* } */
+  /* Exibe os itens lado a lado */
+  /* .menu li {
+    display: inline-block; */
+    /* margin-right: 10px; /* Espaçamento entre os itens */
+  /*} */
+  
+  /* Último item sem margem direita */
+  /* .menu li:last-child {
+    margin-right: 0px;
+  } */
+  
+  /* Estilização dos links */
+  /* .menu a {
+    display: inline-block;
+    padding: 14px 20px;
+    font-size: 18.5px;
+    text-decoration: none;
+    color: white;
+    font-family:'Zen Antique';
+  } */
+  
+  /* Alterar a cor ao passar o mouse */
+  /* .menu a:hover {
+    background-color: #575757;
+  } */
