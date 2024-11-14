@@ -59,83 +59,72 @@
 }
 
 
-nav {
-  padding: 10px 0; /* Espaçamento ao redor do menu */
-  text-align: right; /* Centraliza o menu horizontalmente */
+#menu ul {
+  padding:0px;
+  margin:0px;
+  background-color:transparent;
+  list-style:none;
+    text-decoration: none;
+}    
+.menu ul li{
+    /*Visual do link*/
+    padding: 0;
+    margin:0px;
+    list-style:none;
+    background-color: transparent;
+    color: white;
+    float:left;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}   
+/*Quando o mouse estiver sobre o menu*/
+.menu ul li:hover{
+  background-color: black;
   color: white;
-  position: relative;
-  top: 40px;
-  font-family: 'Zen Antique';
+  border-bottom:3px solid white;
+    font-weight: bold;
 }
-
-/*LInha Superior alinhada com o menu*/
-/* .line-div {
-  width: 50%;
-  position: absolute;
-  top: 90px;
-  border: 2px solid #fff;
-  box-sizing: border-box;
-  height: 2px;
-  transform: rotate(-0.1deg);
-  transform-origin: 0 0;
-  } */
-
-
-/*Linha Inferior*/
-/* .line-div2 {
-  width: 50%;
-  position: absolute;
-  top: 850px;
-  left: 960px;
-  border: 2px solid #fff;
-  box-sizing: border-box;
-  height: 2px;
-  transform: rotate(-0.1deg);
-  transform-origin: 0 0;
-  }   */
-
-/* Remove bullets da lista */
-.menu {
-  list-style-type: none;
-  padding: 0;
-  margin: 10px;
+#menu2{
+    left: -40px;
+    position: relative;
+    top: auto;
 }
-
-@media (max-width: 768px) {
-  .menu ul {
-      flex-direction: column; /* Altera para uma coluna */
-      align-items: center; /* Alinha itens no centro */
-  }
-  .menu li {
-    padding: 10px 0;
-  }
-  
+#menu3{
+    left: 110px;
+    position: relative;
+    top: auto;
 }
-
-/* Exibe os itens lado a lado */
-.menu li {
-  display: inline-block;
-  margin-right: 10px; /* Espaçamento entre os itens */
+#menu4{
+    left: 90px;
+    position: relative;
+    top: auto;
+    left: auto;
 }
-
-/* Último item sem margem direita */
-.menu li:last-child {
-  margin-right: 10px;
+.menu ul ul{
+    display: none;
+    position: absolute;
 }
-
-/* Estilização dos links */
-.menu a {
-  display: inline-block;
-  padding: 14px 20px;
-  font-size: 18.5px;
-  text-decoration: none;
-  color: white;
-  font-family:'Zen Antique';
+.menu ul li:hover > ul{
+    display: block;
 }
+#menu ul li { display: inline-block; }
 
-/* Alterar a cor ao passar o mouse */
-.menu a:hover {
-  background-color: #575757;
+.menu ul ul ul{
+    top: 0px;
+    position: absolute;
+    left: 1px;
+}
+.menu ul ul li{
+    background-color: black;
+
 }
 #inicio{
   width: 190px;
@@ -184,7 +173,7 @@ nav {
 
 #github{
   position: relative;
-  top: 720px;
+  top: 920px;
   right: 10px;
   left: 10px;
   width: 50px;
@@ -193,7 +182,7 @@ nav {
 }
 #facebook{
   position: relative;
-  top: 720px;
+  top: 920px;
   left: 30px;
   width: 40px;
   height: 40px;
@@ -201,7 +190,7 @@ nav {
 
 #instagram{
   position: relative;
-  top: 720px;
+  top: 920px;
   left: 50px;
   right: 10px;
   width: 45px;
@@ -210,7 +199,7 @@ nav {
 
 #linkedin{
   position: relative;
-  top: 720px;
+  top: 920px;
   left: 65px;
   right: 10px;
   width: 45px;
@@ -221,8 +210,8 @@ nav {
   width: 550px;
   height: 410px;
   position: absolute;
-  left: 570px;
-  top: 330px;
+  left: 680px;
+  top: 350px;
   font-size: 17px;
   font-family: 'Zen Antique';
   color: white;
@@ -231,10 +220,11 @@ nav {
 
   }
 
+
 #imagemRaudiney{
   position: absolute;
   top: 290px;
-  left: 200px;
+  left: 250px;
   height: 420px;
   width: 280px;
 }   
@@ -244,12 +234,14 @@ nav {
 #tituloSobre{
   position: absolute;
   top: 280px;
-  left: 570px;
+  left: 680px;
   color: white;
   font-size: 36px;
   font-family: 'Zen Antique';
   width: 550px;
 }
+
+
 
 #cursos{
   color: white;
@@ -259,6 +251,8 @@ nav {
   top: 260px;
   font-family: 'Zen Antique';
 }
+
+
 #tituloCursos{
   color: white;
   font-size: 24.5px;
@@ -352,7 +346,7 @@ nav {
 
 /* experience */
 
-#tituloExperience{
+/* #tituloExperience{
   color: white;
   font-family: 'Zen Antique';
   font-size: 46px;
@@ -360,15 +354,15 @@ nav {
   top: 220px;
   left: 1050px;
 
-}
+} */
 
 #empresa{
   color: white;
   font-family: 'Zen Antique';
   font-size: 26.5px;
   position: absolute;
-  top: 420px;
-  left: 850px;
+  top: 220px;
+  left: 900px;
   width: 500px;
 }
 
@@ -377,10 +371,11 @@ nav {
   font-family: 'Zen Antique';
   font-size: 18.5px;
   position: absolute;
-  top: 465px;
-  left: 850px;
+  top: 300px;
+  left: 900px;
   width: 500px;
 }
+
 #raudineyRack{
   position: absolute;
   top: 220px;
@@ -406,8 +401,8 @@ nav {
   font-family: 'Zen Antique';
   font-size: 18.5px;
   position: absolute;
-  top: 260px;
-  left: 350px;
+  top: 150px;
+  left: 120px;
 }
 #imagemCabosRack{
   position: absolute;
