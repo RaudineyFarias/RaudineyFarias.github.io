@@ -34,72 +34,55 @@
 
         <h1>RaudSistemas (Ferramenta de ERP Fiscal)</h1>
         <h2>Essas as principais Funcionalidades </h2>
+           <div class="container" id="Lista_espera_texto">
+        <h1>Apresentação do Sistema</h1>
+        <p>Nosso sistema foi desenvolvido utilizando Django e oferece uma plataforma completa para gestão de operações financeiras, estoque, vendas e muito mais. </p>
+        
         <h2>1. Configurações Fiscais</h2>
-        <p>Este módulo permite a configuração de informações fiscais e tributárias essenciais.</p>
+        <p>Este módulo permite a configuração de informações fiscais e tributárias essenciais para operações contábeis e fiscais da empresa.</p>
         <ul>
-            <li>NCM, PIS CST, Cofins CST, CST ICMS, CFOP</li>
-            <li>Natureza de Operação, Centro de Custo</li>
-            <li>Funções: Editar, Excluir</li>
+            <li><strong>NCM</strong>: Código que classifica mercadorias para tributação.</li>
+            <li><strong>PIS CST</strong>: Define a tributação do PIS sobre produtos e serviços.</li>
+            <li><strong>Cofins CST</strong>: Define a tributação do COFINS.</li>
+            <li><strong>CST ICMS</strong>: Define como o ICMS será tributado.</li>
+            <li><strong>CFOP</strong>: Indica a natureza da operação de mercadoria/serviço.</li>
+            <li><strong>Natureza de Operação</strong>: Identifica a finalidade da transação fiscal.</li>
+            <li><strong>Centro de Custo</strong>: Define áreas responsáveis pelos gastos.</li>
         </ul>
+        <p><strong>Funções:</strong> Editar, Excluir.</p>
 
         <h2>2. Estoque</h2>
-        <p>Gerenciamento eficiente de entrada e saída de mercadorias.</p>
-        <ul>
-            <li>Entrada de Mercadorias</li>
-            <li>Dashboard e Exportação de Relatórios</li>
-            <li>Funções: Editar, Visualizar, Excluir</li>
-        </ul>
+        <p>Gerencia as mercadorias da empresa, permitindo controle eficiente de entrada e saída.</p>
+        <p><strong>Funções:</strong> Entrada de Mercadorias, Dashboard, Exportação de Relatórios, Editar, Visualizar, Excluir.</p>
 
         <h2>3. Utilitários</h2>
-        <h3>Clientes</h3>
-        <ul>
-            <li>Cadastro, Edição, Exclusão, Cashback</li>
-        </ul>
-        <h3>Funcionários</h3>
-        <ul>
-            <li>Cadastro, Login e Auditoria, Grupos e Tarefas</li>
-        </ul>
-        <h3>Fornecedores</h3>
-        <ul>
-            <li>Consultar, Editar, Excluir</li>
-        </ul>
+        <p><strong>Clientes</strong>: Cadastro, Edição/Exclusão, Cashback.</p>
+        <p><strong>Funcionários</strong>: Cadastrar, Consultar, Visualizar, Editar, Excluir, Inativar por férias, Login e auditoria, Criar grupos, Consultar tarefas.</p>
+        <p><strong>Fornecedores</strong>: Consultar, Editar, Excluir.</p>
 
         <h2>4. Financeiro</h2>
-        <h3>Receita (Caixa Auxiliar)</h3>
-        <ul>
-            <li>Recebimento, Contas a receber, Fechar caixa</li>
-        </ul>
-        <h3>Despesas (Caixa Geral)</h3>
-        <ul>
-            <li>Pagamentos, Adiantamentos, Devoluções</li>
-        </ul>
+        <p><strong>Receita (Caixa Auxiliar)</strong>: Recebimento, Reimpressão de recibo, Contas a receber, Registrar pagamento, Adiantamentos, Fechar caixa, Sangria, Vendas em aberto, Relatórios.</p>
+        <p><strong>Despesas (Caixa Geral)</strong>: Lançamentos, Saídas para depósito, Pagamento de contas, Adiantamento a fornecedor, Devolução de adiantamento do cliente, Devolução de venda, Cotações.</p>
 
         <h2>5. Vendas</h2>
-        <ul>
-            <li>Adicionar Mercadoria, Vincular Cliente, Finalizar Venda</li>
-            <li>Consultar Vendas, Emissão de Recibos, Orçamentos</li>
-        </ul>
+        <p><strong>Funções:</strong> Tela de vendas, Adicionar mercadoria, Vincular cliente, Finalizar venda, Consultar vendas, Emissão de recibos, Vendas concluídas.</p>
+        <p><strong>Orçamentos:</strong> Criar, Consultar, Gerar PDF.</p>
 
         <h2>6. Agendamentos</h2>
-        <ul>
-            <li>Criar, Consultar, Editar, Excluir, Finalizar</li>
-        </ul>
+        <p><strong>Funções:</strong> Criar, Consultar, Editar, Excluir, Finalizar, Emitir recibo.</p>
 
         <h2>7. Gestão de Tarefas</h2>
-        <ul>
-            <li>Adicionar, Editar, Excluir, Concluir</li>
-        </ul>
+        <p><strong>Adicionar tarefas:</strong> Diária, Dias específicos, Data específica.</p>
+        <p><strong>Funções:</strong> Editar, Excluir, Concluir.</p>
 
         <h2>8. Gestão de Reuniões</h2>
-        <ul>
-            <li>Adicionar, Editar, Excluir, Acessar pautas</li>
-        </ul>
+        <p><strong>Funções:</strong> Adicionar reunião, Associar pauta, Acessar/editar/excluir, Acessar pautas concluídas, Lista de presença.</p>
 
         <h2>9. Dashboards</h2>
-        <ul>
-            <li>Estoque, Vendas, Agendamentos, Financeiro</li>
-            <li>Gráficos interativos para análise</li>
-        </ul>
+        <p><strong>Estoque:</strong> Meta, Total de mercadorias, Custo total, Vendas realizadas, Lucro obtido.</p>
+        <p><strong>Vendas:</strong> Gráficos de totais.</p>
+        <p><strong>Agendamentos:</strong> Total agendado, Finalizado, Cancelado.</p>
+        <p><strong>Financeiro:</strong> Contas a pagar por centro de custo, Contas a receber, Movimentos financeiros.</p>
     </div>
     <div id = "Lista_espera">Sistema de Lista De Espera<br/></div>
     <div id = "Lista_espera_texto">Funcionalidades Principais:<br/><br/>
